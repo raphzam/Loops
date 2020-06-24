@@ -1,44 +1,22 @@
-#Loops 
+#Loops
 
-Write a program that prints the numbers 1-10.
-Write a program that prints the numbers 1-10 backwards.
-Write a program that prints all the odd numbers from 1-20.
-Write a program that prints all the even numbers from 1-20.
-Have the user input a number and print all numbers from that input value to 1.
-Sum all values from 1-10.
-Have the user enter a number and print the sum of all numbers from that inputted value to 1.
-Write loops to print the following:
-i)
+This program has 9 different parts.
 
-**********
-**********
-**********
-**********
+1) Print numbers from 1 to 10
 
-ii)
+2) Print numbers from 1 to 10 backwards
 
-*
-**
-***
-****
-*****
+3) Print odd numbers from 1 to 20
 
-iii)
+4) Print even numbers from 1 to 20
 
-        *
-      **
-    ***
-  ****
-*****
+5) Print all the numbers from <userEntered> to 1
 
- 
+6) Sum all values from 1 to 10
 
-8. Factorial of a Number: 
+7) Sum all values from 1 to <userEntered>
 
-You are going to write an application to determine the factorial of a single number.
+8) Print grid loops
 
-A factorial of an integer is the product of that integer and all the integers below it. For example, the factorial of 4 is (4 x 3 x 2 x 1 = 24).
+9) Compute the factorial of a user entered number
 
-The user will be required to enter an integer.
-
-You will then calculate the factorial of that integer and print the result to the screen.
