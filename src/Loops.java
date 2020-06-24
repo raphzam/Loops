@@ -5,6 +5,8 @@ public class Loops {
         Scanner input = new Scanner(System.in);
 
         int userNumber;
+        int sum= 0;
+
 
 
 //        PRINT NUMBERS 1 - 10
@@ -68,11 +70,11 @@ public class Loops {
 
 //        SUM ALL VALUES FROM 1 - 10
 
-        int sum = 0;
+        sum = 0;
         for (int i = 1; i <=10; i++) {
             sum+=i;
         }
-        System.out.println("The sum of numbers 1 - 10: " + sum);
+        System.out.println("The sum of numbers 1 - 10 is " + sum);
         System.out.println();               //linebreak
         System.out.println();               //linebreak
 
@@ -82,19 +84,20 @@ public class Loops {
 //        SUM OF ALL NUMBERS FROM USER SUBMITTED TO 1
 
         System.out.println("Enter a number");
-        userNumber = input.nextInt();
-        if (userNumber > 1){
-            for (int i = userNumber; i >= 1; i--) {
-                sum+=i;
+        int userNumber2 = input.nextInt();
+        int sum2 = 0;
+        if (userNumber2 > 1){
+            for (int i = userNumber2; i >= 1; i--) {
+                sum2+=i;
 
             }
-        } else if (userNumber < 1){
-            for (int i = userNumber; i <= 1; i++) {
-                sum+=i;
+        } else if (userNumber2 < 1){
+            for (int i = userNumber2; i <= 1; i++) {
+                sum2+=i;
 
             }
         }
-        System.out.printf("The sum of all the numbers from %d to 1 is " + sum, userNumber);
+        System.out.printf("The sum of all the numbers from %d to 1 is " + sum2, userNumber2);
         System.out.println();               //linebreak
         System.out.println();               //linebreak
 
